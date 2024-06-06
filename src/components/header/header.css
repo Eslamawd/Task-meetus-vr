@@ -1,0 +1,120 @@
+.header {
+    width: 100%;
+    height: 30px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var( --dark-color);
+    background-color: var(--gray-color);
+    position: relative;
+    z-index: 99;
+
+}
+.nav-b-t{
+    flex-grow: 4;
+}
+.header-t-b {
+height:25px;
+margin-top: 2px;
+margin-bottom: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(208, 253, 6);
+}
+.header-b {
+height:25px;
+margin-top: 2px;
+margin-bottom: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(6, 2, 5);
+}
+.headero-o {
+    height:50px;
+margin-top: 2px;
+margin-bottom: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+}
+.contin-icon {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-smell {
+    width: 15px;
+    height: 15px;
+    margin: px;
+}
+
+.count-cart {
+    z-index: 2;
+    text-align: center;
+    border-radius: 100%;
+    background-color: rgb(213, 52, 52);
+    color: #fff;
+    width: 20px;
+    height: 22px;
+    justify-content: center;
+    position: relative;
+    top: -3px; left: -3px;
+}
+.span-li {
+ text-align: center;
+ text-decoration: wavy;
+  font-weight: 200;
+  font-size: xx-small;
+ margin-left: 7px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link {
+    margin: 0 12px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 21px;
+    color: var(--dark-color);
+}
+.nav-link:hover {
+    color: var(--orange-color);
+}
+.icon-hrader {
+    width: 30px;
+    height: 30px;
+}
+
+.search-inp{
+height: 40px;
+width: 200px;
+border-radius: 30px;
+padding: 5px;
+font-weight: 500;
+}
+.search-inp:focus {
+    border: 1px solid rgb(165, 0, 180);
+}
+.hclas {
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.Logo-header {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    object-fit: contain;
+}

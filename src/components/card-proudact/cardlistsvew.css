@@ -1,0 +1,66 @@
+
+.cards-proudact {
+    width: 100%;
+    height: 100vh;
+}
+
+.cards {
+    background-color: #fff;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   padding: 5px;
+   margin: 5px;
+   height: 80vh;
+   
+
+
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 280px;
+    width:220px;
+    background-color: var(--main-color);
+    margin: 4px;
+    border: 1px solid black;
+    border-radius: 30px;
+    
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+position: relative;
+top: 6px;
+}
+
+
+.image-clas {
+    width: 100%;
+    height: 70%;
+    border-radius: 40px;
+    
+    
+}
+.image-clas:hover  {
+        transform: scaleX(-1);
+      }
+    
+
+
+
+.add-cart-btn {
+    width: 70%;
+    height: 8%;
+    color: var(--main-color);
+    background-color: var(--dark-color);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.add-cart-btn:hover {
+    position: relative;
+    right: 5px;
+}

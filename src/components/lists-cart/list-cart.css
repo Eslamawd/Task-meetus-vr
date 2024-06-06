@@ -1,0 +1,84 @@
+.list-cart {
+    width: 40vw;
+    height: 100vh;
+    position: absolute;
+    top: 70px ; right: 0;
+}
+
+.list {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 40px;
+    background-color: #fff;
+    overflow: auto;
+
+      
+}
+.list::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .list::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .list::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .list::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.item {
+    display: flex;
+    flex-grow: 1;
+    border-bottom: 1px solid var(--orange-color);
+    background-color: #f1f1f1;
+    text-align: right;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 30px;
+    width: 100%;
+    height: 30vh;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item:hover {
+    position: relative;
+    right: 30px;
+}
+.image-cover {
+    width: 45%;
+    height: 80%;
+    border-radius: 20px;
+
+}
+.image-list {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.icon-close {
+    width: 40px;
+    height: 40px;
+    color: red;
+    position: relative;
+    right: -205px;
+    cursor: pointer;
+}
+
+
+.text-view {
+    margin-right: 12px;
+    color: blueviolet;
+}
